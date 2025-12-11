@@ -1,11 +1,13 @@
 * {
     text-align: center;
-    margin: 10px 20px;
-    
+    padding: 5px 0px;
+    margin: 5px 0px;
+   
 }
 
 ol, ul {
-    margin: 20px auto;
+    margin: 0px auto;
+    margin-bottom: 20px;
     display: table;
 }
 
@@ -14,5 +16,29 @@ li {
 }
 
 a {
-    margin: 0px
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+h4 {
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: skyblue;
+    border-color: gray;
+    border-style: solid;
+    color: black;
+    padding: 5px 15px;
+    margin: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
 }
