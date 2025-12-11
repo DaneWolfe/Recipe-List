@@ -1,14 +1,18 @@
 * {
     text-align: center;
+    margin: 10px 20px;
+    
 }
 
 ol, ul {
-    list-style-position: outside;
     margin: 20px auto;
-    padding-left: 2rem;
     display: table;
 }
 
 li {
     text-align: left;
+}
+
+a {
+    margin: 0px
 }
