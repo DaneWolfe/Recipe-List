@@ -1,15 +1,14 @@
 * {
     text-align: center;
-    list-style-position: inside;
 }
 
-ol, ol li {
+ol, ul {
+    list-style-position: outside;
+    margin: 20px auto;
+    padding-left: 2rem;
+    display: table;
+}
+
+li {
     text-align: left;
-    margin: 10px 50px;
 }
-
-ul, ul li {
-    text-align: left;
-    margin: 10px 100px;
-}
-
